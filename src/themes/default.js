@@ -3,7 +3,7 @@ export const theme = {
     primary: {
       light: "#7385E7",
       medium: "#1F35B5",
-      dark: "#18298C",
+      dark: "#0F1A57",
       contrast: "#FFFFFF"
     },
     secondary: {
@@ -11,6 +11,11 @@ export const theme = {
       medium: "#22CBD3",
       dark: "#1A979E",
       contrast: "#FFFFFF"
+    },
+    text: {
+      light: "#ACACAC",
+      medium: "#4B4B4B",
+      dark: "#1F1F1F"
     }
   },
   typography: {
@@ -24,6 +29,7 @@ export const theme = {
       bold: "700"
     },
     sizes: {
+      xxs: "0.8rem",
       xs: "1rem",
       sm: "1.5rem",
       md: "2rem",
@@ -39,5 +45,8 @@ export const theme = {
     lg: "2.5rem",
     xl: "3rem",
     xxl: "4rem"
+  },
+  animations: {
+    easeInOut: "all 0.3s ease-in-out"
   }
 };
