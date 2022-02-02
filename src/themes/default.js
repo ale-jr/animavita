@@ -30,5 +30,14 @@ export const theme = {
       lg: "2.5rem",
       xl: "3rem"
     }
+  },
+  spacing: {
+    xxs: "0.5rem",
+    xs: "1rem",
+    sm: "1.5rem",
+    md: "2rem",
+    lg: "2.5rem",
+    xl: "3rem",
+    xxl: "4rem"
   }
 };
