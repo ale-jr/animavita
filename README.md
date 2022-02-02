@@ -12,6 +12,7 @@ Componentes, hooks e funções são divididos de acordo com suas responsabilidad
 - Hooks (`src/hooks`): Gerenciam estados mais complexos, ciclos de vida, integram services
 - Services (`src/services`): Responsáveis por chamar APIs ou lidar com tarefas mais complexas
 - Contextos (`src/contexts`): Onde [contexts e providers](https://reactjs.org/docs/context.html) são criados, estes auxiliam na passagem dos dados evitando repassar props, embora não sejam gerenciadores de dados, em conjunto com hooks podem ser usados para gerenciar um estado global ou um estado utilizado em vários lugares dentro de uma árvore.
+- Tema e design tokens (`src/themes`): Aqui ficam todas as cores, espaçamentos, fontes e outros tokens que serão consumidos pelos componentes de ui, o tema é criado e usado utilizando [styled-components](https://styled-components.com/)
 
 
 ![That's all folks](https://media.giphy.com/media/upg0i1m4DLe5q/giphy.gif)
