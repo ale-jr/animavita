@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skeleton Matches snapshot 1`] = `
+<div>
+  <span
+    aria-hidden="true"
+    class="sc-bdvvtL jsLOtp"
+  >
+    ‌
+  </span>
+</div>
+`;
+
+exports[`Skeleton Matches snapshot 2`] = `
+<div>
+  <span
+    aria-hidden="true"
+    class="sc-bdvvtL ismeOg"
+  >
+    ‌
+  </span>
+</div>
+`;
+
+exports[`Skeleton Matches snapshot 3`] = `
+<div>
+  <span
+    aria-hidden="true"
+    class="sc-bdvvtL gUwRCM"
+    height="100px"
+    width="100px"
+  >
+    ‌
+  </span>
+</div>
+`;
+
+exports[`Skeleton Renders repeated skeletons 1`] = `
+<div>
+  <div
+    class="sc-gsDKAQ hPaScV"
+  >
+    <span
+      aria-hidden="true"
+      class="sc-bdvvtL jsLOtp"
+    >
+      ‌
+    </span>
+    <span
+      aria-hidden="true"
+      class="sc-bdvvtL jsLOtp"
+    >
+      ‌
+    </span>
+    <span
+      aria-hidden="true"
+      class="sc-bdvvtL jsLOtp"
+    >
+      ‌
+    </span>
+    <span
+      aria-hidden="true"
+      class="sc-bdvvtL jsLOtp"
+    >
+      ‌
+    </span>
+    <span
+      aria-hidden="true"
+      class="sc-bdvvtL jsLOtp"
+    >
+      ‌
+    </span>
+    <span
+      aria-hidden="true"
+      class="sc-bdvvtL jsLOtp"
+    >
+      ‌
+    </span>
+    <span
+      aria-hidden="true"
+      class="sc-bdvvtL jsLOtp"
+    >
+      ‌
+    </span>
+    <span
+      aria-hidden="true"
+      class="sc-bdvvtL jsLOtp"
+    >
+      ‌
+    </span>
+    <span
+      aria-hidden="true"
+      class="sc-bdvvtL jsLOtp"
+    >
+      ‌
+    </span>
+    <span
+      aria-hidden="true"
+      class="sc-bdvvtL jsLOtp"
+    >
+      ‌
+    </span>
+  </div>
+</div>
+`;
