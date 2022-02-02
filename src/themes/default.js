@@ -16,6 +16,13 @@ export const theme = {
       light: "#ACACAC",
       medium: "#4B4B4B",
       dark: "#1F1F1F"
+    },
+    neutral: {
+      lightest: '#EBEBEB',
+      light: '#D6D6D6',
+      medium: '#ACACAC',
+      dark: '#4B4B4B',
+      darkest: '#1F1F1F'
     }
   },
   typography: {
