@@ -6,6 +6,7 @@ export const TextInputBox = styled.div`
   border-radius: 500px;
   border: 1px solid ${({ theme }) => theme.colors.primary.light};
   transition: ${({ theme }) => theme.animations.easeInOut};
+  background-color: ${({ theme }) => theme.colors.neutral.white};
 
   padding: ${({ theme }) => `${theme.spacing.xxs} ${theme.spacing.xs}`};
   &:focus-within {
