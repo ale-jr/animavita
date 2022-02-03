@@ -63,7 +63,7 @@ Skeleton.propTypes = {
 
 
 
-export const RepeatSkeletonBox = styled.div`
+export const RepeatSkeletonBox = styled.span`
     display: flex;
     flex-direction: column;
     gap: ${({ theme }) => theme.spacing.xxs};

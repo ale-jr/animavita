@@ -37,7 +37,7 @@ exports[`Skeleton Matches snapshot 3`] = `
 
 exports[`Skeleton Renders repeated skeletons 1`] = `
 <div>
-  <div
+  <span
     class="sc-gsDKAQ hPaScV"
   >
     <span
@@ -100,6 +100,6 @@ exports[`Skeleton Renders repeated skeletons 1`] = `
     >
       ‌
     </span>
-  </div>
+  </span>
 </div>
 `;
