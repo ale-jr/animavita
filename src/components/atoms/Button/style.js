@@ -5,7 +5,7 @@ export const Button = styled.button`
   color: ${({ theme }) => theme.colors.primary.contrast};
   font-weight: ${({ theme }) => theme.typography.weights.bold};
   border-radius: 500px;
-  padding: ${({ theme }) => `${theme.spacing.xxs} ${theme.spacing.xs}`};
+  padding: ${({ theme }) => `${theme.spacing.xs} ${theme.spacing.sm}`};
   text-transform: uppercase;
   border: none;
   cursor: pointer;
