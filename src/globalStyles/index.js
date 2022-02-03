@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body{
         font-family: ${({ theme }) => theme.typography.families.body};
+        background-color: ${({ theme }) => theme.colors.neutral.lightest};
     }
 
 `;
