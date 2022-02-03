@@ -6,7 +6,7 @@ function CharacterList({ characters, loading, error }) {
 
     return <CharacterListBox>
         {characters.map((character) => <CharacterCard character={character} key={character.id} />)}
-        {loading && Array.from(Array(4)).map((_, key) => <CharacterCard key={key} />)}
+        {loading && Array.from(Array(4)).map((_, key) => <CharacterCard key={key} loading />)}
         {error && <CharacterListError>{error}</CharacterListError>}
     </CharacterListBox>
 }
