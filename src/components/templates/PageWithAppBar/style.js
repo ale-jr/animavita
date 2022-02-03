@@ -7,5 +7,8 @@ export const PageBox = styled.div`
     flex-grow: 1;
     overflow: auto;
     padding: ${({theme})=>theme.spacing.md};
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 `;
