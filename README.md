@@ -15,6 +15,16 @@ Componentes, hooks e funções são divididos de acordo com suas responsabilidad
 - Tema e design tokens (`src/themes`): Aqui ficam todas as cores, espaçamentos, fontes e outros tokens que serão consumidos pelos componentes de ui, o tema é criado e usado utilizando [styled-components](https://styled-components.com/)
 - Estilos globais(`src/globalStyles`): Estilos globais usando [styled-components](https://styled-components.com/)
 
+## O que poderia ser melhor
+Como eu não tive muito tempo livre eu priorizei fazer algo que funcionasse bem, mas existem algumas coisas que poderiam melhorar 😅 como:
+- Implementar mais testes, especialmente _unhappy paths_
+- Melhorar e separar melhor os mocks dos testes
+- Criar um _service_ para chamadas HTTP (a função que chama a KitsuAPI está com muita responsabilidade)
+- Definir mais algumas regras de lint ou implementar um padrão como stardard ou airbnb (deixei o conjunto de regras do create react app)
+- Criar um favicon e definir o `manifest.json`
+- Pensar em alguma forma de resolver o problema de encoding (depende um pouco do back, mas é algo possívle de resolver 😅)
+- Hospedar o front em algum lugar (talvez um firebase?)
+
 ![That's all folks](https://media.giphy.com/media/upg0i1m4DLe5q/giphy.gif)
 
 
